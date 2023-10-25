@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1', 'localhost']
 LOGIN_URL = "/login/"
 LOGIN_REDIRECT_URL = "http://localhost:7000/"
-LOGOUT_REDIRECT_URL = "http://localhost:7000/splash/"
+LOGOUT_REDIRECT_URL = "http://localhost:7000/"
 
 # Application definition
 
