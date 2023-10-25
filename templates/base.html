@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            overflow: hidden;
+        }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-sky-600 to-indigo-700">
+<body class="bg-gradient-to-br from-sky-600 to-indigo-700 h-screen">
     {% block content %}{% endblock %}
 </body>
 </html>
