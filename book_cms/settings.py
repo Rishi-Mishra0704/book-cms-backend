@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-p94e!fqhjrt%_4x%&p6%0e-yw#+m%7&t*97#wi)by!wkn*4xs%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1', 'localhost']
+LOGIN_URL = "/login/"
+LOGIN_REDIRECT_URL = "http://localhost:7000/"
+LOGOUT_REDIRECT_URL = "http://localhost:7000/splash/"
 
 # Application definition
 
